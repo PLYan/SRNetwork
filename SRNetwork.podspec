@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SRNetwork"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Base Networking Module."
   spec.swift_versions = "5.0"
 
