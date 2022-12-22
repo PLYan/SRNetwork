@@ -1,0 +1,11 @@
+framework module SRNetwork {
+  umbrella header "SRNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module SRNetwork.Swift {
+    header "SRNetwork-Swift.h"
+    requires objc
+}
