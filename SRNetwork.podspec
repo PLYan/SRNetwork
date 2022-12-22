@@ -75,7 +75,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/PLYan/SRNetwork.git", :tag => "#{spec.version}" }
 
-
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
@@ -84,8 +83,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Products/SRNetwork.framework/Headers/*.{swift}"
-  # spec.vendored_frameworks = 'Products/SRNetwork.framework'
+  # spec.source_files  = "SRNetwork.framework/Headers/*.{swift}"
+  spec.vendored_frameworks = 'SRNetwork.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
